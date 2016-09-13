@@ -1,0 +1,34 @@
+<GridLayout rows="auto, *">
+
+  <GridLayout row="0" columns="*, auto" class="add-bar">
+    <TextField #itemsToAddField [(ngModel)]="itemsToAdd" hint="Add New Item....." col="0"></TextField>
+    <Image src="res://add" (tap)="add()" col="1"></Image>
+  </GridLayout>
+
+  <ListView [items]="itemsList" row="1" class="small-spacing">
+    <template let-item="item">
+        <Label [text]="item.name" class="medium-spacing"></Label>
+      <!--GridLayout columns="auto" class="container">
+        <Label [text]="item.name" class="medium-spacing"></Label>
+        <!--Label [text]="'$' + item.price" class="medium-spacing"></Label>
+        <Label [text]="item.stock + 'Nos.'" class="medium-spacing"></Label-->
+      <!--/GridLayout>
+      <!--Label [text]="item.name" class="medium-spacing"></Label-->
+      <!--GridLayout columns="*, auto" class="container" [opacity]="item.done ? '0.8' : '1'"-->
+      <!--GridLayout columns="*, auto" class="container" [opacity]="'0.8'"-->
+        <!-- Wrap in containers for bigger tap targets -->
+        <!--StackLayout col="0" orientation="horizontal" class="tap-target" (tap)="toggleDone(item)">
+          <!--Image [src]="imageSource(item)" class="check-box"></Image-->
+          <!--Label [text]="item.name" [class.line-through]="item.done && !item.deleted"></Label-->
+          <!--Label [text]="item.name" class="medium-spacing"></Label>
+        </StackLayout>
+        <!--GridLayout *ngIf="!item.deleted" col="1" class="delete-container" (tap)="delete(item)"-->
+        <!--GridLayout col="1" class="delete-container" (tap)="delete(item)">
+          <StackLayout>
+            <Image src="res://delete"></Image>
+          </StackLayout>
+        </GridLayout-->
+      <!--/GridLayout-->
+    </template>
+  </ListView>
+</GridLayout>

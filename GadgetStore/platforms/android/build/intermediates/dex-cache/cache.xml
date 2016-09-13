@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/exploded-aar/GadgetStore/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="736a019270b8fb0fda4532f90fc9d1a7458022c0">
+        <dex dex="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/pre-dexed/F0/debug/binding-generator_68ccacbeac03e6235147de104ba22e297ef9d86e.jar" />
+    </item>
+    <item
+        jar="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="89f0a1f737477abeda61c0072529d5158b1ebe81">
+        <dex dex="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/pre-dexed/F0/debug/intermediates-exploded-aar-widgets-release_35bc5d3f840314c5abcdc7c1a50e1c3b434af6db.jar" />
+    </item>
+    <item
+        jar="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-animated-vector-drawable-23.4.0_b7f3bacd641591ad95cf319ee6a992e7c87926f4.jar" />
+    </item>
+    <item
+        jar="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-vector-drawable-23.4.0_30967931b434f9a244b5ae10f47dda28556ab963.jar" />
+    </item>
+    <item
+        jar="/usr/local/Cellar/android-sdk/24.4.1_1/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-23.4.0_a12a58e60202c69d81c9a0c51e787f1734022445.jar" />
+    </item>
+    <item
+        jar="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-appcompat-v7-23.4.0_ff72ee86e74cbc31859e7e42cdd8e4892f9d25b8.jar" />
+    </item>
+    <item
+        jar="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/exploded-aar/GadgetStore/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="60fb0eb96d073a4a1d71095f8e16dbb6ff73681c">
+        <dex dex="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/pre-dexed/F0/debug/GadgetStore-runtime-unspecified_c3a44645e4278535011787ad64a4880badb7f5fc.jar" />
+    </item>
+    <item
+        jar="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/pre-dexed/F0/debug/internal_impl-23.4.0_ccb76fd20618dd55c46e1cb8c6f37cf614a3dba4.jar" />
+    </item>
+    <item
+        jar="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/calvin/Desktop/NSProject/sample-Groceries/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-v4-23.4.0_b5b49269f06053e4602b34bda4dcb436b9931c30.jar" />
+    </item>
+
+</items>

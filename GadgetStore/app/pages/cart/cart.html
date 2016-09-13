@@ -1,0 +1,23 @@
+<GridLayout rows="auto, auto, *">
+
+  <GridLayout row="0" columns="auto, auto, *" class="header-list-page">
+    <Label col="0" text="Your Cart:" width="80%"></Label>
+    <!--TextField #itemsToAddField hint="Select the Gadgets" col="0"></TextField-->
+    <Label col="1" text="<< Back" (tap)="gotoListPage()" class="gadgets-cart-count"></Label>
+    <!--Image src="res://cart" col="1" (tap)="gotoCart()" class="list-page-cart-icon"></Image-->
+  </GridLayout>
+
+
+  <!--ListView [items]="itemsList" row="2" class="small-spacing" (itemTap)="itemAction($event)">
+    <template let-item="item" let-i="index">
+      <StackLayout columns="auto, *">
+        <GridLayout row="0" columns="*, auto" class="gadgets-list-page">
+          <Label col="0" [text]='"   " + item.name' class="medium-spacing"></Label>
+          <Image src="res://add" col="1"></Image>
+        </GridLayout>
+        <Label row="1" col="0" [text]='"             [ $" + item.price + ".00 - " + item.stock + " items in stock ]"' class="medium-spacing" ></Label>
+      </StackLayout>
+    </template>
+  </ListView-->
+
+</GridLayout>

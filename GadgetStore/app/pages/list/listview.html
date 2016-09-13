@@ -1,0 +1,49 @@
+<GridLayout rows="auto, auto, *" *ngIf="listView">
+  <GridLayout row="0" columns="auto, auto, *" class="header-list-page">
+    <Label col="0" text="Select the Gadgets....." width="80%"></Label>
+    <!--TextField #itemsToAddField hint="Select the Gadgets" col="0"></TextField-->
+    <Label col="2" [text]='itemActionList.length + "   "' (tap)="toggleView()" class="gadgets-cart-count"></Label>
+    <!--Image src="res://cart" col="1" (tap)="gotoCart()" class="list-page-cart-icon"></Image-->
+    <Image src="res://cart" col="1" (tap)="toggleView()" class="list-page-cart-icon"></Image>
+  </GridLayout>
+
+  <GridLayout row="1"> 
+    <Label [text]='"     " + itemsList.length + " Items Found."' class="header-of-list"></Label>
+  </GridLayout>
+
+  <ListView [items]="itemsList" row="2" class="small-spacing" (itemTap)="itemAction($event)">
+    <template let-item="item" let-i="index">
+      <StackLayout columns="auto, *">
+        <GridLayout row="0" columns="*, auto" class="gadgets-list-page">
+          <Label col="0" [text]='"   " + item.name' class="medium-spacing"></Label>
+          <Image src="res://add" col="1"></Image>
+        </GridLayout>
+        <Label row="1" col="0" [text]='"             [ $" + item.price + ".00 - " + item.stock + " items in stock ]"' class="medium-spacing" ></Label>
+      </StackLayout>
+    </template>
+  </ListView>
+</GridLayout>
+
+<GridLayout rows="auto, *" *ngIf="!listView">
+  <GridLayout row="0" columns="auto, auto, *" class="header-list-page">
+    <Label col="0" text="Your Cart:" width="50%"></Label>
+    <!--TextField #itemsToAddField hint="Select the Gadgets" col="0"></TextField-->
+    <Label col="1" text="<< Back" class="gadgets-cart-count" (tap)="toggleView()"></Label>
+
+    <Label col="2" text="Check Out" class="gadgets-cart-count" (tap)="processCart()"></Label>
+    <!--Image src="res://cart" col="1" (tap)="gotoCart()" class="list-page-cart-icon"></Image-->
+  </GridLayout>
+
+
+  <ListView [items]="itemActionList" row="1" class="small-spacing" (itemTap)="removeFromCart($event)">
+    <template let-item="item" let-i="index">
+      <StackLayout columns="auto, *" class="cart-page-item-list">
+        <GridLayout row="0" columns="*, auto" class="gadgets-list-page cart-page-item-list">
+          <Label col="0" [text]='"   " + item.name' class="medium-spacing cart-page-item-list"></Label>
+          <Image src="res://delete" col="1" class="cart-page-item-list"></Image>
+        </GridLayout>
+        <Label row="1" col="0" [text]='"             [ $" + item.price + ".00 - " + item.stock + " items in stock ]"' class="medium-spacing cart-page-item-list" ></Label>
+      </StackLayout>
+    </template>
+  </ListView>
+</GridLayout>
