@@ -62,8 +62,36 @@ Note that the Process Cart service just prints the items on the console. If need
 
 Setup Instructions:
 =====================
+### Setup Node.JS and NativeScript. This URL should help: https://docs.nativescript.org/start/quick-setup
+
+### Setup Android SDK with the help of above URL.
+
+### Setup MongoDB. URL: https://docs.mongodb.com/manual/installation/
+
+### Setup Spring Boot Microservices. Note that you need JDK in order to build and run the server. URL:https://spring.io/guides/gs/spring-boot/
+
+### Additionally you need other Java/JEE dependency such as Maven and other tools. 
 
 
+
+>	1. Launch Android Emulator or connect a device.
+
+>	2. Start MongoDB by the following command:
+	Windows: mongod --dbpath D:\MongoDB\data --port 27017 --logpath D:\MongoDB\logs\mongod.log
+	Mac: mongod --dbpath /Users/niranjan/mongodb-3.2.8/MongoDB/dataMac --port 27017 —log path /Users/calvin/mongodb-3.2.8/MongoDB/logsMac
+
+>	3. Set ANDROID_HOME Environment:
+	Mac: export ANDROID_HOME=/usr/local/Cellar/android-sdk/24.4.1_1
+
+>	4. Launch Microservices:
+	Navigate to the project directory and launch the following command:
+	java -jar target/gs-rest-service-0.1.0.jar
+	This should prepare the server and launch with the inbuilt configuration.
+
+>	5. Run the NativeScript App:
+	Navigate to the project directory and launch the following command:
+	tns run android —emulator (For Emulator)
+	tns run android (For Device) 
 
 
 
