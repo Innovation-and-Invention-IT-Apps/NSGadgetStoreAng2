@@ -14,8 +14,8 @@ Home Page:
 ———————————
 	User launches the app and it appears with the home page with the following 2 
 >	use cases:
->		1. Registration
->		2. Login
+>	1. Registration
+>	2. Login
 
 	The Registration module needs the user to input a valid email address and password. Validation is implemented to validate email address and empty strings. Upon tapping Sign Up button backend service is called for user registration. The data is stored on MongoDB on server.
 
@@ -24,11 +24,11 @@ Home Page:
 Gadgets List Page:
 ————————————————————
 >	use cases:
->		1. Populate Gadgets
->		2. Select Gadgets
->		3. Unselect Gadgets
->		4. Cart Items Count
->		5. View Cart
+>	1. Populate Gadgets
+>	2. Select Gadgets
+>	3. Unselect Gadgets
+>	4. Cart Items Count
+>	5. View Cart
 
 	On load of this page a Microservice Get Gadgets List is being invoked which then returns all the gadgets available in the store. This information then gets populated on the page (Populate Gadgets use case).
 
@@ -44,9 +44,9 @@ Gadgets List Page:
 Cart Page:
 ———————————
 >	use cases:
->		1. Remove Item
->		2. Go Back
->		3. Check Out
+>	1. Remove Item
+>	2. Go Back
+>	3. Check Out
 
 	Upon tapping on the X button on the cart items the item will be removed from the cart and the items counter is updated accordingly.
 
