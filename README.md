@@ -12,7 +12,8 @@ Functional Flow:
 ===================
 Home Page:
 ———————————
-	User launches the app and it appears with the home page with the following 2 >	use cases:
+	User launches the app and it appears with the home page with the following 2 
+>	use cases:
 >		1. Registration
 >		2. Login
 
